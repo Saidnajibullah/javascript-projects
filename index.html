@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegExp</title>
+    <link rel="stylesheet" href="custom-style.css">
+</head>
+<body>
+    <h1 class="title">User Registration Form</h1>
+<div class="container">
+    <form>
+        <input placeholder="Username" type="text" name="username">
+        <p>Username must be alphanumeric and contain 5 - 12 characters</p>
+        <input placeholder="Email" type="email" name="email">
+        <p>Email must be a valid address. e g example@gmail.com</p>
+        <input placeholder="Password" type="password" name="password">
+        <p>Password must be alphanumeric (@ ! . _ - are also allowed) and be 8 - 20 characters</p>
+        <input placeholder="Phone #" type="text" name="phone">
+        <p>Phone must be a vlid US telephone # ( 11 digits)</p>
+        <input placeholder="Slug" type="slug" name="slug">
+        <p>Slug must contain lowercase letters, numbers and hyphens and be 8 - 20 characters</p>
+    </form>
+</div>
+
+</body>
+<script src="validation.js"></script>
+</html>
